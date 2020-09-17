@@ -1,0 +1,43 @@
+.PhoneBook{
+    text-align: center;
+}
+h1 {
+    color: orange;
+    font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+.danger{
+    padding: 10px;
+    color: red;
+    font-size: 17px;
+}
+
+.add-btn{
+    padding: 10px;
+    color: green;
+    font-size: 17px;
+    margin-top: 20px;
+    background: #fff;
+    font-weight: bold;
+}
+
+input{
+    pad: 5px 50px;
+    margin-bottom: 10px;
+}
